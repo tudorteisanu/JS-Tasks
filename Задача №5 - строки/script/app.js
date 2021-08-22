@@ -5,4 +5,4 @@ const extractCurrencyValue = function cutCurrencySignFirstPos(str) {
   return parseInt(signCut);
 };
 
-alert(extractCurrencyValue("$120"));
+alert(extractCurrencyValue("$300"));
