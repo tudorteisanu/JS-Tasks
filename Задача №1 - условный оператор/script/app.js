@@ -2,32 +2,32 @@ const n = 9;
 
 switch (n) {
   case 1:
-    alert("Zdesi 1");
+    console.log("There is One");
     break;
   case 2:
-    alert("Zdesi 2");
+    console.log("There is Two");
     break;
   case 3:
-    alert("Zdesi 3");
+    console.log("There is Three");
     break;
   case 4:
-    alert("Zdesi 4");
+    console.log("There is Four");
     break;
   case 5:
-    alert("Zdesi 5");
+    console.log("There is Five");
     break;
   case 6:
-    alert("Zdesi 6");
+    console.log("There is Six");
     break;
   case 7:
-    alert("Zdesi 7");
+    console.log("There is Seven");
     break;
   case 8:
-    alert("Zdesi 8");
+    console.log("There is Eight");
     break;
   case 9:
-    alert("Zdesi 9");
+    console.log("There is Nine");
     break;
   default:
-    alert("Sovpadenii ne bilo");
+    console.log("Invalid Data");
 }
