@@ -1,7 +1,7 @@
 function sumInputNumbers() {
-    let inputArray = [];
+    const inputArray = [];
     let input;
-    while (input = prompt("Введите число: ")) {
+    while (input = prompt("Enter a value: ")) {
         if (isNaN(input)) {
             break;
         }
@@ -11,11 +11,11 @@ function sumInputNumbers() {
 
     }
 
-    alert("Тут все");
+    alert("Done");
 
 
     let arraySum = inputArray.reduce((a, b) => a + b, 0);
-    console.log(`${arraySum} сумма введенных чисел`);
+    console.log(`${arraySum} - Sum of entered values`);
 }
 
 sumInputNumbers();
