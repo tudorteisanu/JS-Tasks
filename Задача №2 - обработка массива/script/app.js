@@ -39,7 +39,7 @@ let students = [
 ]
 
 //calcs student average mark
-function studentAverage(arr) {
+const studentAverage = function countsStudentAverageMark(arr) {
     let sum = 0;
     let res = 0;
 
@@ -60,7 +60,7 @@ function studentAverage(arr) {
 }
 
 //output students with mark < 5
-function lessThenFive(arr) {
+const lessThenFive = function outputLessThenFive(arr) {
     let sum = 0;
     let res = 0;
 
@@ -82,7 +82,7 @@ function lessThenFive(arr) {
 }
 
 //find the max and min avg mark
-function minAndMax(arr) {
+const minAndMax = function findMinAndMax(arr) {
     let sum = 0;
     let res = 0;
     let resultsArray = [];
@@ -121,7 +121,7 @@ function minAndMax(arr) {
 }
 
 //sorts students
-function studentSort(arr) {
+const studentSort = function sortsStudentsReduced(arr) {
     let sum = 0;
     let res = 0;
     let resultsArray = [];
@@ -155,7 +155,7 @@ function studentSort(arr) {
 }
 
 //above average
-function aboveAverage(arr) {
+const aboveAverage = function findsStudentsAboveAverage(arr) {
     let sum = 0;
     let res = 0;
     let resultsArray = [];
@@ -199,4 +199,4 @@ function aboveAverage(arr) {
 // lessThenFive(students);
 // minAndMax(students);
 //studentSort(students);
-aboveAverage(students);
+// aboveAverage(students);
